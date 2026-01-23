@@ -15,8 +15,8 @@ public class Snake extends JPanel implements ActionListener, KeyListener {
   Tile snakeHead, food;
   ArrayList<Tile> snakebody;
   Image img;
-  // Image frogimg;
-  // Image snakeH;
+  Image frogimg;
+  Image snakeH;
   Random random;
   Timer t;
   int xvelocity = 0;
@@ -67,8 +67,8 @@ public class Snake extends JPanel implements ActionListener, KeyListener {
     snakeHead = new Tile(0, 0);
     food = new Tile(10, 10);
     img = new ImageIcon("backimg.png").getImage();
-    // frogimg = new ImageIcon("frog.png").getImage();
-    // snakeH = new ImageIcon("snakehead.png").getImage();
+    frogimg = new ImageIcon("frog.png").getImage();
+    snakeH = new ImageIcon("snakehead.png").getImage();
     snakebody = new ArrayList<>();
     random = new Random();
     food.x = random.nextInt(boardwidth / tileSize);
@@ -97,8 +97,8 @@ public class Snake extends JPanel implements ActionListener, KeyListener {
       g2d.fillRect(tile.x, tile.y, tileSize, tileSize);
     }
 
-    if ((snakeHead.x >= boardwidth) || (snakeHead.x < 0) || (snakeHead.y >= boardheight) || (snakeHead.y < 0)
-        || (hitself())) {
+    if ((snakeHead.x >= boardwidth) || (snakeHead.x < 0) || (snakeHead.y >= boardheight) || (snakeHead.y < 0)|| (hitself())) {
+      
       t.stop();
       clip1.stop();
       try {
