@@ -249,7 +249,7 @@ public class Snake extends JPanel implements ActionListener, KeyListener {
   Tile snakeHead, food;
   ArrayList<Tile> snakebody;
   Image img;
-  // Image frogimg;
+  Image frogimg;
   // Image snakeH;
   Random random;
   Timer t;
@@ -301,7 +301,7 @@ public class Snake extends JPanel implements ActionListener, KeyListener {
     snakeHead = new Tile(0, 0);
     food = new Tile(10, 10);
     img = new ImageIcon("backimg.png").getImage();
-    // frogimg = new ImageIcon("frog.png").getImage();
+    frogimg = new ImageIcon("frog.png").getImage();
     // snakeH = new ImageIcon("snakehead.png").getImage();
     snakebody = new ArrayList<>();
     random = new Random();
@@ -366,8 +366,10 @@ public class Snake extends JPanel implements ActionListener, KeyListener {
       return;
     }
     // Displaying Frog
-    g2d.setColor(Color.red);
-    g2d.fillRect(food.x * tileSize, food.y * tileSize, tileSize, tileSize);
+
+    // g2d.setColor(Color.red);
+    // g2d.fillRect(food.x * tileSize, food.y * tileSize, tileSize, tileSize);
+    g2d.drawImage(frogimg, food.x * tileSize, food.y * tileSize, tileSize, tileSize, this);
 
   }
 
