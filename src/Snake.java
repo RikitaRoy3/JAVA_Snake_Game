@@ -9,7 +9,7 @@ import javax.sound.sampled.*;
 
 public class Snake extends JPanel implements ActionListener, KeyListener {
   int boardwidth, boardheight;
-  int tileSize = 25;
+  int tileSize = 30;
   int points;
   int levels = 1;
   Tile snakeHead, food;
