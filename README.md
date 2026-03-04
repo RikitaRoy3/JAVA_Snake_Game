@@ -117,5 +117,4 @@ Snake-Game/
 This project was built for learning purposes and to strengthen understanding of Java GUI programming and basic game development concepts.
 
 ---
-
 ⭐ If you like this project, feel free to star the repository!
