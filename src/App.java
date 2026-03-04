@@ -2,8 +2,8 @@ import javax.swing.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        int boardwidth = 600;
-        int boardheight = 600;
+        int boardwidth = 625;
+        int boardheight = 625;
 
         JFrame frame = new JFrame("Snake Game");
         frame.setSize(boardwidth, boardheight);
