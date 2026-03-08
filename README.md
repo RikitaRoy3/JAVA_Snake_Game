@@ -3,6 +3,11 @@
 A classic **Snake Game** built using **Java Swing** with graphics, sound effects, keyboard controls, and score tracking. This project was created as a beginner-friendly desktop game to understand core Java concepts, event handling, and basic game logic.
 
 ---
+## Game Demo
+
+[https://github.com/yourusername/yourrepo/blob/main/Visual Demonstration of the Game.mp4](https://github.com/RikitaRoy3/JAVA_Snake_Game/blob/main/Visual%20Demonstration%20of%20the%20Game.mp4)
+
+---
 
 ## 📌 Features
 
