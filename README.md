@@ -5,7 +5,7 @@ A classic **Snake Game** built using **Java Swing** with graphics, sound effects
 ---
 ## Game Demo
 
-(https://github.com/RikitaRoy3/JAVA_Snake_Game/blob/main/Visual%20Demonstration%20of%20the%20Game.mp4)
+https://github.com/RikitaRoy3/JAVA_Snake_Game/blob/main/Visual%20Demonstration%20of%20the%20Game.mp4
 
 ---
 
